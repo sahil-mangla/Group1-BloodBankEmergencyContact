@@ -19,7 +19,7 @@ dbms-proj/
 ```
 
 ##  Database Design (ER Diagram)
-![ER Diagram](images/er_diagram.png)
+![ER Diagram](images/er_diagram_high_res.png)
 
 ##  Key Features
 - **Automated Donor Tracking**: A trigger automatically marks donors as 'Unavailable' once they are mapped to a request.
