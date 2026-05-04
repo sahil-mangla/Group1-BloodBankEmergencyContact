@@ -2,10 +2,10 @@
 
 A robust, PL/SQL-based Blood Donation Management System designed to manage users, donors, and blood requests with automated status tracking.
 
-## 🩸 Project Overview
+##  Project Overview
 This system facilitates the matching of blood seekers with donors based on blood group and location. It uses advanced Oracle PL/SQL features like Triggers, Procedures, Functions, and Cursors to ensure data integrity and automation.
 
-## 📁 File Structure
+##  File Structure
 ```text
 dbms-proj/
 ├── schema.sql              # Table definitions, constraints, and sequences
@@ -18,20 +18,17 @@ dbms-proj/
 └── README.md               # Project overview and setup guide
 ```
 
-## 📊 Database Design (ER Diagram)
+##  Database Design (ER Diagram)
 ![ER Diagram](images/er_diagram.png)
 
-## 🚀 Key Features
+##  Key Features
 - **Automated Donor Tracking**: A trigger automatically marks donors as 'Unavailable' once they are mapped to a request.
 - **Auto-Incrementing IDs**: Uses Oracle Sequences for primary key generation.
 - **Data Validation**: Strict check constraints on blood groups.
 - **Reporting**: Cursor-based procedures to list pending requests with user details.
 
-## 🛠️ How to Setup
+##  How to Setup
 1. **Schema**: Run `schema.sql` to create tables and sequences.
 2. **Logic**: Run `procedures.sql` to compile procedures and triggers.
 3. **Data**: Run `mock_data.sql` to populate sample records.
 4. **Demo**: Use the `ListPendingRequests` procedure to see the system in action.
-
----
-*Created for DBMS Course Project - 2026*
