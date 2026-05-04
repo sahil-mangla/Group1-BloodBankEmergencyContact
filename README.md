@@ -27,8 +27,13 @@ dbms-proj/
 - **Data Validation**: Strict check constraints on blood groups.
 - **Reporting**: Cursor-based procedures to list pending requests with user details.
 
-##  How to Setup
-1. **Schema**: Run `schema.sql` to create tables and sequences.
-2. **Logic**: Run `procedures.sql` to compile procedures and triggers.
-3. **Data**: Run `mock_data.sql` to populate sample records.
-4. **Demo**: Use the `ListPendingRequests` procedure to see the system in action.
+## 🛠️ How to Setup
+1. **Reset (Optional)**: Run `reset.sql` if you want to wipe existing data and start fresh.
+2. **Schema**: Run `schema.sql` to create tables and sequences.
+3. **Logic**: Run `procedures.sql` to compile procedures and triggers.
+4. **Data**: Run `mock_data.sql` to populate sample records.
+5. **Demo**: Use the `ListPendingRequests` procedure to see the system in action.
+
+---
+*Created for DBMS Course Project - 2026*
+
